@@ -1,0 +1,59 @@
+REST Example - 
+	Student DB
+	Swagger
+	Lombok
+	Gradle
+	
+	# Integrate mysql/h2 - db
+
+1. 	Spring History - Introduction
+	https://docs.spring.io/spring/docs/5.2.0.M1/spring-framework-reference/overview.html#overview
+	
+2. 	Spring IoC Container
+	https://howtodoinjava.com/spring-core/different-spring-ioc-containers/
+	
+3.	IoC v/s DI
+	Inversion Of Control -
+	------------------------
+	It is a process whereby objects define their dependencies (that is, the other objects they work with) only through constructor arguments, 
+	arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method. 
+	The container then injects those dependencies when it creates the bean. This process is fundamentally the inverse (hence the name, Inversion of Control)
+	
+	https://docs.spring.io/spring/docs/5.2.0.M1/spring-framework-reference/core.html#spring-core
+	https://howtodoinjava.com/spring-core/spring-ioc-vs-di/
+	
+5.	XML Configuration v/s Java Configuration
+	https://docs.spring.io/spring/docs/5.2.0.M1/spring-framework-reference/core.html#beans-java
+	https://docs.spring.io/spring/docs/5.2.0.M1/spring-framework-reference/core.html#beans-child-bean-definitions
+	
+6.	Spring Bean Autowiring - (Simple & Constructor Based Autowiring)
+	https://howtodoinjava.com/spring-core/spring-beans-autowiring-concepts/
+	
+7.	Spring - @Configuration, @Bean
+	https://howtodoinjava.com/spring-core/spring-configuration-annotation/
+	
+4.	Spring Bean Life Cycle
+	https://howtodoinjava.com/spring-core/spring-bean-life-cycle/
+	
+8.	Spring @Component, @Repository and @Service Annotations
+	https://howtodoinjava.com/spring-core/how-to-use-spring-component-repository-service-and-controller-annotations/
+	
+9.	REST APIs - Best Practices
+	
+10. Introduction of Lombok, Swagger.
+
+
+Create Boot Jar:-
+---------------------
+Maven: mvn clean install
+Gradle: gradlew clean build
+
+Run Java Jar :-
+-----------------
+Java -jar jarName.jar
+
+
+Github Repository :-
+-------------------
+
+https://github.com/proficientrvkmr/Spring-Rest-Demo
